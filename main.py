@@ -1,7 +1,6 @@
-import cadastro
 from colors import Bold, Cyan, Green, Red, Reset
 from conversa import Conversar, conversar
-import login, readline
+import login, cadastro, readline
 from extra import waitprint, ascii
 from banco import get_chaves_con, get_chaves_usuario_con, get_main_conn, get_temp_conn, get_msg_con
 
